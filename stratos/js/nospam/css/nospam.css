@@ -1,0 +1,13 @@
+/* Example CSS style for NoSpam encrypted email links */
+
+span.nsp_address, a.nsp_address {
+  color: #000000;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #888888;
+}
+
+span.nsp_address:hover, a.nsp_address:hover {
+  color: #81A021;
+  border-bottom-color: #006600;
+}
