@@ -1,20 +1,26 @@
 @import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,200,200italic,300,300italic,400italic,600,600italic,700,700italic,900,900italic);
 
+@import url(http://fonts.googleapis.com/css?family=Wire+One);
+
 /*font-family: 'Source Sans Pro', sans-serif;*/
 
 /* Body and structure*/
 /*#c2e7f1*/
-html {
+/*html {
 	background: #709cc7 url(../img/sky.png) repeat-x;
-	}
+	}*/
 body { color: rgba(68,124,171,0.8);
-  position: relative;
-background: url(../img/clouds.png) right top;
+  /*position: relative;
+background: url(../img/clouds.png) right top;*/
 
 	font-family: 'Source Sans Pro', sans-serif;
 }
 body .entry ol li{
 	color: #fff;
+}
+p {
+	font-size: 1.3em;
+	line-height: 1.5;
 }
 /* Code in headings */
 h3 code {
@@ -26,8 +32,19 @@ h3 code {
 	display: block;
 	margin-bottom: 0;
 }
-
-
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Source Sans Pro', 'sans-serif';
+	font-weight: 600;
+}
+h3 {
+	font-size: 2.3em;
+}
+h4 {
+	font-size: 2em;
+}
+h5 {
+	font-size: 1.85em;
+}
 /* Tweak navbar brand link to be super sleek */
 
 body > .navbar {
@@ -310,7 +327,13 @@ only screen and (     -o-min-device-pixel-ratio: 2/1) {
   margin: 0 auto 30px;
 }
 
-
+img.about{
+	background-color: rgba(255,255,255,0.86);
+	padding: 4px 4px 12px;
+	margin-right: 12px;
+	margin-left: -40px;
+	margin-top: -30px;
+}
 
 /* Footer */
 
