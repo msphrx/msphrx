@@ -1,5 +1,5 @@
 html {
-	background:#505D6E url(../images/presence-of-the-past.jpg) no-repeat center center fixed; 
+	background:#505D6E url(../images/presence-of-the-past2.jpg) no-repeat center center fixed; 
 	min-height:100%;
 	-webkit-background-size: cover;
 	   -moz-background-size: cover;
@@ -24,7 +24,9 @@ body {
 /********************************************************/
 /*                    Navigation bar                    */
 /********************************************************/
-.mainmenu { z-index: 999999; width:100%;  padding: 30px 0 0 0;}
+.mainmenu { z-index: 999999; width:100%;
+	padding: 0;
+}
 @media (min-width: 768px) {
 	.mainmenu { position: fixed; }
 }
@@ -133,30 +135,28 @@ a { color:#fff; text-decoration: none; }
 a:hover, a:active { color:#fff; text-decoration: underline; }
 .lead { 
 	font-weight:normal;
-	font-size:1.5em;
+	font-size:1.7em;
 	line-height:1.2em;
 }
 
 .title,
 .subtitle { 
 	font-family: 'Wire One', Helvetica, Arial, sans-serif;
-	font-weight:normal;
-	font-size:7em;
+	
+	font-size: 6em;
 	margin-bottom:15px; 
 	color:#FDF9F4; 
 	line-height:1em;
 }
 .subtitle { 
-	line-height:.9em;
-	font-size:5.5em;
+	line-height: .9em;
 	margin-top:0;
-	margin-bottom:40px; 
+	margin-bottom:40px;
+	font-size: 4.4em;
 }
-.tagline { 
-	font-size:1.4em;
-	line-height:1.3em;
-	font-weight:normal;
-	margin-bottom:75px;
+.tagline {
+	line-height: 1.3em;
+	font-size: 3em;
 }
 
 @media (max-width: 767px) {
@@ -165,7 +165,8 @@ a:hover, a:active { color:#fff; text-decoration: underline; }
 	}
 }
 
-
+sub,sup{font-family: 'Wire One', Helvetica, Arial, sans-serif;position:relative;font-size:75%;line-height:0;vertical-align:baseline}
+sup{top:-0.5em}
 /********************************************************/
 /*                   UI - Buttons                       */
 /********************************************************/

@@ -20,7 +20,7 @@ body .entry ol li{
 }
 p {
 	font-size: 1.3em;
-	line-height: 1.5;
+	line-height: 1;
 }
 /* Code in headings */
 h3 code {
@@ -33,17 +33,19 @@ h3 code {
 	margin-bottom: 0;
 }
 h1, h2, h3, h4, h5, h6 {
-	font-family: 'Source Sans Pro', 'sans-serif';
+	font-family: 'Wire One','Source Sans Pro', 'sans-serif';
 	font-weight: 600;
+	line-height: 1em;
+	margin: 0;
 }
 h3 {
-	font-size: 2.3em;
+	font-size: 3em;
 }
 h4 {
-	font-size: 2em;
+	font-size: 3em;
 }
 h5 {
-	font-size: 1.85em;
+	font-size: 3em;
 }
 /* Tweak navbar brand link to be super sleek */
 
